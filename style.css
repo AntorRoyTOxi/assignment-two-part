@@ -112,14 +112,77 @@ form select, .option {
           border: none;
  } 
  /* **************************** main section ******************************  */
-
-
-
-
-
-
+   .popular-tour{ 
+     display: flex; 
+     justify-content:space-between; 
+    
+       width: 80%;
+         margin: 80px auto; 
+          gap: 40px; 
+           
+   } 
+    .popular-trip{ 
+         font-size: 2.5rem; 
+          color: #131318;  
+           font-weight: 800;
+           margin-bottom: 40px; 
+            
+    } 
+    .popular-pera{ 
+         color: rgba(19, 19, 24, 0.70); 
+          margin-bottom: 20px;
+           line-height: 25px;
+    }
+          .popular-heading li{ 
+             color:rgba(19, 19, 24, 0.70) ; 
+              font-weight: 400; 
+               margin-bottom: 40px; 
+                line-height: 25px;
+          }
+           .button2{ 
+            color: white; 
+            background-color: #FF5400; 
+             padding: 10px; 
+              width: 170px; 
+               height: 50px; 
+                border-radius: 8px; 
+                 border: none; 
+                  font-size: 1.3rem;
+           }
+/* ***************************** main second part ***********************   */
 
  
+ .destination{ 
+     text-align: center; 
+      color: #131318; 
+       font-size: 2.3rem; 
+        font-weight: 800; 
+         margin-bottom: 20px;
+ } 
+  .destination-pera{ 
+     text-align: center;  
+      color: gba(19, 19, 24, 0.70); 
+       font-weight: 400; 
+        line-height: 25px;
+  }
+  .destination-picture{
+     width: 80%; 
+      margin-left: 170px; 
+       margin-top: 50px; 
+       
+     }
+    .destination-picture img{ 
+         padding: 10px; 
+        
+    }
+
+     
+      
+
+
+
+
+
 
              /* ************** media quary use ***************************  */ 
               @media screen and (max-width:576px) { 
@@ -165,5 +228,46 @@ form select, .option {
                     } 
                      .button1{
                          width: 255px;
+                     } 
+
+                     .popular-tour{ 
+                    flex-direction: column;
                      }
+                  .popular-tour-img img{ 
+                     width: 320px;
+                  }
+                  .popular-tour{ 
+                    margin: 20px auto;
+                  }
+                  .popular-pera{ 
+                     margin-bottom: 10px;
+                  }
+                  .popular-heading li{
+                     margin-bottom: 20px;
+                  } 
+                  .popular-trip{
+                     font-size: 1.25rem; 
+                     margin-bottom: 10px;
+                  }
+                   .destination-picture{ 
+                     display: flex; 
+                      flex-direction: column;  
+                     margin-left: 18px; 
+                      margin-top: 10px;
+                   
+                       
+                   } 
+                    .destination-picture img{ 
+                         width: 335px; 
+                          height: 175px;
+                    }
+                    .destination{ 
+                         font-size: 1.25rem;
+                    }
+                    .destination-pera{ 
+                         font-size: .9rem;
+                          width: 309px; 
+                           margin: 10px auto;
+                    }
+                  
               }
