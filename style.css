@@ -71,7 +71,7 @@
  }
 
   /* ************ from stye***************************************  */ 
-    form{ 
+    .frist-form-part{ 
          margin-top: 70px; 
          border-radius: 8px;
          background: rgba(255, 255, 255, 0.30); 
@@ -84,7 +84,7 @@
   
   
   
-  form input{ 
+  .frist-form-part .where-go{ 
      width: 150px; 
   border:  none; 
    outline: none;
@@ -93,14 +93,15 @@
         border-radius: 8px;
        background: #FFF;
    } 
-form select, .option { 
+.frist-form-part select, .option { 
      padding: 10px; 
       width: 170px; 
        border-radius: 8px; 
         background-color: #fff; 
          color: rgba(19, 19, 24, 0.50) ; 
           outline: none; 
-           height: 50px;
+           height: 50px; 
+            border: none;
 } 
  .button1{ 
     color: white; 
@@ -218,7 +219,7 @@ form select, .option {
       background: rgba(41, 206, 246, 0.05);
       }
       .cart-two-rows{  
-         margin: 0 auto;
+         margin: 0 auto 35px auto;
         width: 573px;
         height: 284px;
         border-radius: 16px;
@@ -238,13 +239,120 @@ form select, .option {
             color: #5A5A5D; 
              line-height: 25px; 
               font-weight: 400; 
-               margin-left: 32px;
+               margin-left: 32px; 
+            
              
         }
 
+        /* *************************** sign in part and picture-part ********************  */
+                       
+              .sign-and-picture-part{ 
+                 display: flex; 
+                  gap: 50px; 
+                   margin: 100px 140px;
+              }
+        
+                  .sign-in-under-part{ 
+                        margin: 20px;
+                        }
+        
+                       .sign-in{ 
+                            width: 474px;
+                            height: 422px;
+                            border-radius: 16px;
+                            border: 1px solid #FF5400;
+                        } 
+                       .last-from>.last-input{ 
+                             display: block;
+                        }
+                        .news{ 
+                             color: #131318; 
+                              font-size: 1.5rem; 
+                               font-weight: 800; 
+                                margin-bottom: 16px;
+                        }
+                        .sign-in-pera{ 
+                            width: 350px;
+                            color: #5A5A5D; 
+                             font-weight: 400; 
+                              margin-bottom: 20px;
+                        } 
+                         hr{ 
+                             width: 430px;
+                             color:  rgba(254, 254, 255, 0.1);
+                           
+                         } 
+                          .last-from{ 
+                             margin-top: 25px;
+                          } 
+                           .last-input1{ 
+                            width: 393px;
+                           
+                            border-radius: 8px;
+                            background: rgba(19, 19, 24, 0.05); 
+                             color: rgba(19, 19, 24, 0.30); 
+                              font-weight: 400; 
+                               margin-bottom: 16px; 
+                                border: none;
+                                 padding: 20px;
+                           }
+                           .last-input2{ 
+                            width: 393px;
+                          
+                            border-radius: 8px;
+                            background: rgba(19, 19, 24, 0.05); 
+                             color: rgba(19, 19, 24, 0.30); 
+                              font-weight: 400; 
+                               border: none; 
+                                padding: 20px;
+                                margin-bottom: 24px;
+                           }
+                           .button3{ 
+                             background-color: #FF5400;
+                             width: 430px;
+                              padding: 20px; 
+                               border-radius: 8px; 
+                                border: none; 
+                                 color: #FFF; 
+                                  font-weight: 800; 
+                                   font-size: 1.25rem;
+                           } 
+                            
 
 
+                  .try-div1{ 
+                     height: 100px; 
+                      width: 315px ;  
+                       border-radius: 8px; 
+                       background-color: #FF5400; 
+                     transform: rotate(-30deg); 
+                     position: relative; 
+                      top: 250px;
+                       left: 350px;
+                    
+                    }  
 
+                  
+                    .travel{ 
+                     color: white; 
+                      font-size: 1.5rem;
+                       font-weight: 400; 
+                       justify-content: center; 
+                       padding-top: 10px; 
+                       
+                   } 
+                    .discount{ 
+                         color: white; 
+                          font-size: 2rem; 
+                           font-weight: 800;
+                          text-align: center;
+                    }  
+                     .try-div{ 
+                         background-image: url('Images/Rectangle\ 8\ \(1\).png'); 
+                         width: 672px;
+                         height: 422px;
+                       
+                     }
 
 
              /* ************** media quary use ***************************  */ 
@@ -278,18 +386,18 @@ form select, .option {
                  .banner-pera{ 
                      font-size: 14px;
                  } 
-                  form{ 
+                 .frist-form-part{ 
                      margin-left:20px; 
                        margin-top: 10px;  
                        width: 300px;
                         
                   } 
-                   form input{ 
+                  .frist-form-part .where-go{ 
                     padding: 16px 10px; 
                       margin-bottom: 5px;
                       width: 230px;
                    } 
-                   form select, .option {
+                   .frist-form-part select, .option {
                         margin-bottom: 5px;  
                          width: 255px;
                     } 
@@ -301,7 +409,8 @@ form select, .option {
                     flex-direction: column;
                      }
                   .popular-tour-img img{ 
-                     width: 320px;
+                     width: 300px;
+                     height: 342px;
                   }
                   .popular-tour{ 
                     margin: 20px auto;
@@ -324,13 +433,15 @@ form select, .option {
                      display: flex; 
                       flex-direction: column;  
                      margin-left: 18px; 
-                      margin-top: 10px;
+                      margin-top: 10px; 
+                      
                    
                        
                    } 
                     .destination-picture img{ 
                          width: 335px; 
                           height: 175px;
+                          padding: 10px 0;
                     }
                     .destination{ 
                          font-size: 1.25rem;
@@ -355,7 +466,7 @@ form select, .option {
  
  .cart-div{ 
      flex-direction: column;
-     margin: 25px 25px 25px 30px;
+     margin: 25px 25px 25px 20px;
  } 
   .handpiked,.world-class,.cart-two-rows{ 
     width: 335px;
@@ -372,10 +483,64 @@ form select, .option {
   .hotel-img{ 
     margin: 20px 0 20px 20px ;}
 .cart-two-rows{ 
-     margin: 0 0 0 30px;
+     margin: 0 0 0 20px;
 }
 .hotel-img{ 
     margin: 32px 0 32px 32px ;}
 
-                  
+            
+    
+
+     /* ************  this is discount part ***********  */ 
+
+     .sign-and-picture-part{ 
+         flex-direction: column; 
+          flex-wrap: wrap; 
+           margin: 50px 20px; 
+     }
+
+     .last-img{ 
+        width: 335px;
+        height: 300px;
+        
+     }  
+     .sign-in{ 
+        width: 335px;
+        height: 429px;
+     } 
+      .sign-in-pera{ 
+         width: 270px;
+      } 
+       hr{ 
+         width: 288px;
+       } 
+        .last-input1,.last-input2{ 
+             width: 250px;
+             
+        } 
+          .button3{ 
+             width: 290px;
+          }
+         .try-div{  
+           background-size: cover;
+            
+            width: 336px;  
+            border-radius: 2%;
+            
+          }  
+           .try-div1{ 
+             position: relative; 
+              top: 290px; 
+               left: 110px; 
+                width: 215px; 
+                 height: 80px;
+           } 
+            .discount{ 
+                 font-size: 1.5rem; 
+                  font-weight: 600;
+            } 
+            .travel{ 
+                 font-size: 1.25rem;
+            }
+
               }
